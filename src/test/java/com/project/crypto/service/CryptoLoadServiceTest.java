@@ -32,7 +32,7 @@ public class CryptoLoadServiceTest {
         String symbol = "symbol";
         Long startTime = 1L;
         Long endTime = 2L;
-        Long interval = 1L;
+//        Long interval = 1L;
 
         List<Kline> klines = Arrays.asList(new Kline(), new Kline());
         when(binanceApiService.load(anyString(), anyLong(), anyLong())).thenReturn(klines);
